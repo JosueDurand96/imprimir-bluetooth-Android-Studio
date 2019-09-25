@@ -1,8 +1,5 @@
 package anil.com.andoirdbluetoothprint;
 
-/**
- * Created by hp on 12/23/2016.
- */
 
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
@@ -48,7 +45,7 @@ public class DeviceListActivity extends Activity {
                 mPairedDevicesArrayAdapter.add(mDevice.getName() + "\n" + mDevice.getAddress());
             }
         } else {
-            String mNoDevices = "None Paired";//getResources().getText(R.string.none_paired).toString();
+            String mNoDevices = "No se encontró dispositivos";//getResources().getText(R.string.none_paired).toString();
             mPairedDevicesArrayAdapter.add(mNoDevices);
         }
     }

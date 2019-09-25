@@ -1,8 +1,6 @@
 package anil.com.andoirdbluetoothprint;
 
-/**
- * Created by hp on 12/23/2016.
- */
+
 
 public class UnicodeFormatter {
 
